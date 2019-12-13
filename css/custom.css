@@ -1,0 +1,33 @@
+/* Credits: https://stackoverflow.com/a/21958440/1532986 */
+.cross-out {
+	position: relative;
+}
+
+.cross-out:before, .cross-out:after {
+	position: absolute;
+	content: '';
+	background: red;
+	display: block;
+	width: 100%;
+	height: 30px;
+	-webkit-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+}
+
+.cross-out:after {
+	-webkit-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+
+.columns {
+	display: flex !important;
+}
+
+.col {
+	flex: 1;
+}
