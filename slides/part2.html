@@ -1,0 +1,139 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Git</title>
+
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/night.css">
+		<link rel="stylesheet" href="css/custom.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/monokai.css">
+
+		<!-- Mergely (merge editor) and dependencies -->
+		<link rel="stylesheet" media="all" href="css/mergely.css" />
+		<link rel="stylesheet" media="all" href="css/codemirror.css" />
+		<script src="js/jquery-3.4.1.min.js"></script>
+		<script src="js/codemirror.js"></script>
+		<script src="js/searchcursor.js"></script>
+		<script src="js/mergely.js"></script>
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section
+					data-markdown="sections/intro2.md"
+					data-separator="^\n===\n\n"
+					data-separator-vertical="^\n---\n\n"
+					data-separator-notes="^Notes?:"
+					data-charset="utf-8">
+				</section>
+				<section
+					data-markdown="sections/motivation.md"
+					data-separator="^\n===\n\n"
+					data-separator-vertical="^\n---\n\n"
+					data-separator-notes="^Notes?:"
+					data-charset="utf-8">
+				</section>
+				<section
+					data-markdown="sections/recap.md"
+					data-separator="^\n===\n\n"
+					data-separator-vertical="^\n---\n\n"
+					data-separator-notes="^Notes?:"
+					data-charset="utf-8">
+				</section>
+				<section
+					data-markdown="sections/rebase.md"
+					data-separator="^\n===\n\n"
+					data-separator-vertical="^\n---\n\n"
+					data-separator-notes="^Notes?:"
+					data-charset="utf-8">
+				</section>
+				<section
+					data-markdown="sections/add.md"
+					data-separator="^\n===\n\n"
+					data-separator-vertical="^\n---\n\n"
+					data-separator-notes="^Notes?:"
+					data-charset="utf-8">
+				</section>
+				<section
+					data-markdown="sections/reset.md"
+					data-separator="^\n===\n\n"
+					data-separator-vertical="^\n---\n\n"
+					data-separator-notes="^Notes?:"
+					data-charset="utf-8">
+				</section>
+				<section
+					data-markdown="sections/releases.md"
+					data-separator="^\n===\n\n"
+					data-separator-vertical="^\n---\n\n"
+					data-separator-notes="^Notes?:"
+					data-charset="utf-8">
+				</section>
+				<section
+					data-markdown="sections/github.md"
+					data-separator="^\n===\n\n"
+					data-separator-vertical="^\n---\n\n"
+					data-separator-notes="^Notes?:"
+					data-charset="utf-8">
+				</section>
+				
+				<section
+					data-markdown="sections/end.md"
+					data-separator="^\n===\n\n"
+					data-separator-vertical="^\n---\n\n"
+					data-separator-notes="^Notes?:"
+					data-charset="utf-8">
+				</section>
+			</div>
+		</div>
+
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				slideNumber: true,
+				hash: true,
+				fragmentInURL: true,
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+				]
+			});
+		</script>
+		<script>
+			Reveal.addEventListener('ready', function() {
+				// set editor content
+				$('#mergely').mergely({
+					license: 'lgpl-separate-notice',
+					wrap_lines: true,
+					lhs: function(setValue) {
+						setValue('Regierungen der Industriellen Welt, ihr müden Riesen aus Fleisch und Stahl, ich komme aus dem Cyberspace, dem neuen Zuhause des Geistes.\nAls Verterter der Zukunft bitte ich euch aus der Vergangenheit, uns in Ruhe zu lassen.\nIhr seid nicht willkommen unter uns.\nIhr habt keine Souveränität, wo wir uns versammeln.');
+					},
+					rhs: function(setValue) {
+						setValue('Regierungen der Industriellen Welt, ihr müden Riesen aus Fleisch und Stahl, ich komme aus dem Cyberspace, dem neuen Zuhause des Geistes.\nAls Vertreter der Zukunft bitte ich euch aus der Vergangenheit, uns in Ruhe zu lassen.\nIhr seid nicht willkommen unter uns.\nIhr habt keine Souveränität, wo wir uns versammeln.');
+					}
+				});
+			});
+		</script>
+	</body>
+</html>
