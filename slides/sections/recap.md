@@ -1,6 +1,20 @@
-## Wiederholung
+## Voraussetzungen
 
+* Konzepte
 * Elementare Befehle
+* Merge Workflow
+
+---
+
+## Konzepte
+
+- Arbeitsverzeichnis
+- Staging/Cache
+- Commit
+- Patch
+- Parent
+- Branch
+- Repository
 
 ---
 
@@ -43,3 +57,13 @@
 - Bisherige/letzte Commits
  - git log
 
+---
+
+## Merge Workflow
+
+- git checkout -b feature
+- git commit
+- git checkout master
+- git pull
+- git merge feature
+- git push
