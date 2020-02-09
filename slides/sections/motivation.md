@@ -22,7 +22,7 @@
 
 - Erleichert andere Workflows
 - Kein Merge Dschungel
-- Lineare History einfacher zu verstehen
+- Lineare Historie einfacher zu verstehen
 - git bisect
 
 ---

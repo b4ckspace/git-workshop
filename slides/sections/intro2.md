@@ -18,4 +18,4 @@ Notes:
 - Branches neu sortieren
  - und auf den neusten Stand bringen
 - Einzelne Patches für Bugfix-Releases zusammenstellen
-- Fehlerhafte Commits wieder hinbiegen 
+- Fehlerhafte Commits wieder hinbiegen
