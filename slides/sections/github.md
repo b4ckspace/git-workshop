@@ -6,9 +6,11 @@
 
 - Fork Repository auf GitHub
  - eigenes Repository
-- git clone <upstream URL>
+- git clone UPSTREAMURL
  - "origin"
-- git remote add private <URL>
+- git remote add private URL
+ - "private" Remote
+ - oder GitHub Username
 
 ---
 
