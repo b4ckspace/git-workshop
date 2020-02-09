@@ -6,10 +6,10 @@
 
 - git add -p
  - git add -i
-- Add hunks of the diff
--- split
--- edit
-- Commit normally afterwards
+- Teile (hunks) der Änderungen ins Staging
+ - split - Änderung weiter aufteilen
+ - edit - Änderung in Editor anpassen
+- Dannach: git commit
 
 ---
 
@@ -41,5 +41,3 @@ e - manually edit the current hunk
   1: status    2: update    3: revert    4: add untracked
   5: patch     6: diff      7: quit      8: help
 ```
-
----
