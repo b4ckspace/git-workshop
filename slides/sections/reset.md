@@ -2,13 +2,33 @@
 
 ---
 
-## git reset
+## Reset auf Dateien
 
-- Set current branch to new target
-- git reset HEAD^
+- git reset [COMMIT] -- PATHS
+- Dateien im Staging auf COMMIT/HEAD bringen
 
-- git reset --hard COMMIT
+---
 
+## Reset auf aktuellen Branch
+
+- git reset COMMIT
+- Branch auf COMMIT setzen
+ - --soft - Dateien und Staging unverändert
+ - --mixed - (default) Staging mit ändern
+ - --hard - alles verwerfen
+ - --merge -
+ - --keep -
+
+---
+
+## Use Cases
+
+- Un-Commit
+ - git reset HEAD^
+- Branch zurück setzen
+ - git reset --hard COMMIT
+ - Änderungen vorher in Commit!
+ - Commits vorher in anderen Branch!
 
 ---
 

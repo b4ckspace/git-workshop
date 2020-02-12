@@ -14,8 +14,10 @@ Notes:
 
 ## Agenda 
 
-- Commits aufteilen und neu zusammenfügen
-- Branches neu sortieren
- - und auf den neusten Stand bringen
-- Einzelne Patches für Bugfix-Releases zusammenstellen
-- Fehlerhafte Commits wieder hinbiegen
+- Motivation
+- Voraussetzungen
+- Änderungen auf Commits aufteilen
+- Branches aktualisieren und neu sortieren
+- Branches zurücksetzen
+- Bugfix-Releases
+- Bonus: GitHub Workflow

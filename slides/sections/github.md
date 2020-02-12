@@ -22,7 +22,10 @@
 - Ggf. Branch fixen
 - git push --force private
 - Profit
-- Branch löschen
+
+---
+
+## Branch löschen
  - git branch -d feature
  - git push private --delete feature
  - git fetch --all --prune
