@@ -13,7 +13,8 @@
 
 ---
 
-## Beispiel
+<img class="plain" style="width: 800px; background: none" src="images/release-branches.png" alt="Release Branches" />
+
 
 ---
 
