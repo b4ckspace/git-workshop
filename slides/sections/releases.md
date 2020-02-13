@@ -5,7 +5,7 @@
 ## Update Releases
 
 - Versionen
- - Major.Minor.Bugfix (siehe [semver.org](https://semver.org/)
+ - Major.Minor.Bugfix (siehe [semver.org](https://semver.org/))
 - Entwickler Branch
 - Release Branches
  - Major.Minor
@@ -13,8 +13,7 @@
 
 ---
 
-<img class="plain" style="width: 800px; background: none" src="images/release-branches.png" alt="Release Branches" />
-
+<img class="plain" style="width: 400px; background: white" src="images/update-releases.svg" alt="Release Branches" />
 
 ---
 
