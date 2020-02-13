@@ -61,12 +61,12 @@
 
 ## Merge Workflow
 
-- `git checkout -b feature` <!-- .element class="fragment" -->
-- `git commit` <!-- .element class="fragment" -->
-- `git checkout master`  <!-- .element class="fragment" -->
-- `git pull` <!-- .element class="fragment" -->
-- `git merge feature` <!-- .element class="fragment" -->
-- `git push` <!-- .element class="fragment" -->
+1. `git checkout -b feature` <!-- .element class="fragment" -->
+2. `git commit` <!-- .element class="fragment" -->
+3. `git checkout master`  <!-- .element class="fragment" -->
+4. `git pull` <!-- .element class="fragment" -->
+5. `git merge feature` <!-- .element class="fragment" -->
+6. `git push` <!-- .element class="fragment" -->
 
 ---
 
