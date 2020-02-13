@@ -12,12 +12,12 @@ Notes:
 
 ---
 
-## Agenda 
+## Agenda
 
-- Motivation
-- Voraussetzungen
-- Änderungen auf Commits aufteilen
-- Branches aktualisieren und neu sortieren
-- Branches zurücksetzen
-- Bugfix-Releases
-- Bonus: GitHub Workflow
+1. Motivation
+2. Voraussetzungen
+3. Änderungen auf Commits aufteilen
+4. Branches aktualisieren und neu sortieren
+5. Branches zurücksetzen
+6. Bugfix-Releases
+7. Bonus: GitHub Workflow
