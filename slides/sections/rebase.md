@@ -4,8 +4,8 @@
 
 ## Rebase
 
-- git rebase TARGET SOURCE
-- Bewegt Branch nach TARGET
+- `git rebase TARGET SOURCE`
+- Bewegt Branch nach `TARGET`
 - Erzeugt neue Commits
 - Alte Commit werden "unerreichbar"
 - Evtl. zweiten Branch anlegen
@@ -20,15 +20,15 @@
 
 ## Workflow
 
-- git checkout -b feature
-- git commit
-- git checkout master
-- git pull
-- git rebase master feature
-- git checkout master
-- git merge --ff-only feature
-- git push
-- git branch -d feature
+1. `git checkout -b feature`
+2. `git commit`
+3. `git checkout master`
+4. `git pull`
+5. `git rebase master feature`
+6. `git checkout master`
+7. `git merge --ff-only feature`
+8. `git push`
+9. `git branch -d feature`
 
 ---
 
@@ -36,14 +36,14 @@
 
 Statt
 
-- git rebase master feature
-- git checkout master
-- git merge --ff-only feature
+1. `git rebase master feature`
+2. `git checkout master`
+3. `git merge --ff-only feature`
 
 evtl.
 
-- git rebase master feature
-- git rebase feature master
+1. `git rebase master feature`
+2. `git rebase feature master`
 
 ---
 
@@ -53,8 +53,8 @@ evtl.
 - Viele kleine anstatt einem großen (bei merge)
 - AUSGABE DER BEFEHLE LESEN!
 - Konflikt beheben
-- git add FILES
-- git rebase --continue
+- `git add FILES`
+- `git rebase --continue`
 - Im Notfall: git rebase --abort
 
 ---
@@ -94,4 +94,4 @@ evtl.
 - Bessere Commit-Message
 - Mehrere Iterationen oft einfacher
 - Erlaubt häufige, kleine Commits
- - Im Zweifelsfall: git commit
+ - Im Zweifelsfall: `git commit`
