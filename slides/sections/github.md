@@ -6,29 +6,30 @@
 
 - Fork Repository auf GitHub
  - eigenes Repository
-- git clone UPSTREAMURL
+- `git clone UPSTREAMURL`
  - "origin"
-- git remote add private URL
+- `git remote add private URL`
  - "private" Remote
- - oder GitHub Username
+ - oder GitHub Nutzername als Name für Remote
 
 ---
 
 ## Pull Request
 
-- Eigenen Branch benutzen
-- git push private
-- Auf GitHub PullRequest anlegen
-- Ggf. Branch fixen
-- git push --force private
-- Profit
+1. Eigenen Branch benutzen
+2. `git push private`
+3. Auf GitHub Pull Request (PR) anlegen
+4. Ggf. Branch fixen
+5. `git push --force private`
+6. Profit
 
 ---
 
 ## Branch löschen
- - git branch -d feature
- - git push private --delete feature
- - git fetch --all --prune
+
+1. `git branch -d feature`
+2. `git push private --delete feature`
+3. `git fetch --all --prune`
 
 ---
 
@@ -36,7 +37,7 @@
 
 - Finger weg!
 - Notfalls:
- - git commit -a -m tmp
- - git checkout -b arg master
- - git checkout master
- - git reset --hard origin/master
+ - `git commit -a -m tmp`
+ - `git checkout -b arg master`
+ - `git checkout master`
+ - `git reset --hard origin/master`
