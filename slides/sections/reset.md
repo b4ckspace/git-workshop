@@ -9,6 +9,15 @@
 
 ---
 
+## Commits
+
+- `HEAD`
+- `HEAD^` (und `HEAD^^`, `HEAD^^^`, …)
+- `HEAD~N`, z. B. `HEAD~5`
+- See `man gitrevisions`
+
+---
+
 ## Reset auf aktuellen Branch
 
 - `git reset COMMIT`
@@ -16,8 +25,7 @@
  - `--soft` - Dateien und Staging unverändert
  - `--mixed` - (default) Staging mit ändern
  - `--hard` - alles verwerfen
- - `--merge` -
- - `--keep` -
+ - `--merge`, `--keep`
 
 ---
 
@@ -29,14 +37,6 @@
  - `git reset --hard COMMIT`
  - Änderungen vorher in Commit!
  - Commits vorher in anderen Branch!
-
----
-
-## Commits
-
-- `HEAD`
-- `HEAD^` (und `HEAD^^`, `HEAD^^^`, …)
-- `HEAD~N`, z. B. `HEAD~5`
 
 ---
 
