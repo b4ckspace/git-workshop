@@ -55,7 +55,7 @@ evtl.
 - Konflikt beheben
 - `git add FILES`
 - `git rebase --continue`
-- Im Notfall: git rebase --abort
+- Im Notfall: `git rebase --abort`
 
 ---
 
