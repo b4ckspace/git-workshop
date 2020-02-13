@@ -4,29 +4,29 @@
 
 ## Reset auf Dateien
 
-- git reset [COMMIT] -- PATHS
-- Dateien im Staging auf COMMIT/HEAD bringen
+- `git reset [COMMIT] -- PATHS`
+- Dateien im Staging auf `COMMIT/HEAD` bringen
 
 ---
 
 ## Reset auf aktuellen Branch
 
-- git reset COMMIT
-- Branch auf COMMIT setzen
- - --soft - Dateien und Staging unverändert
- - --mixed - (default) Staging mit ändern
- - --hard - alles verwerfen
- - --merge -
- - --keep -
+- `git reset COMMIT`
+- Branch auf `COMMIT` setzen
+ - `--soft` - Dateien und Staging unverändert
+ - `--mixed` - (default) Staging mit ändern
+ - `--hard` - alles verwerfen
+ - `--merge` -
+ - `--keep` -
 
 ---
 
 ## Use Cases
 
 - Un-Commit
- - git reset HEAD^
-- Branch zurück setzen
- - git reset --hard COMMIT
+ - `git reset HEAD^`
+- Branch zurücksetzen
+ - `git reset --hard COMMIT`
  - Änderungen vorher in Commit!
  - Commits vorher in anderen Branch!
 
@@ -34,9 +34,9 @@
 
 ## Commits
 
-- HEAD
-- HEAD^
-- HEAD~NNN
+- `HEAD`
+- `HEAD^` (und `HEAD^^`, `HEAD^^^`, …)
+- `HEAD~N`, z. B. `HEAD~5`
 
 ---
 
@@ -50,9 +50,9 @@
 
 ## Split Commit
 
-- git reset HEAD^
-- git add -p
-- git commit
+- `git reset HEAD^`
+- `git add -p`
+- `git commit`
 - ...
-- Als Teil von rebase -i
+- Als Teil von rebase `-i`
  - "edit" für den Patch
