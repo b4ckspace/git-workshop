@@ -25,25 +25,9 @@
 3. `git checkout master`
 4. `git pull`
 5. `git rebase master feature`
-6. `git checkout master`
-7. `git merge --ff-only feature`
-8. `git push`
-9. `git branch -d feature`
-
----
-
-## Alternative
-
-Statt
-
-1. `git rebase master feature`
-2. `git checkout master`
-3. `git merge --ff-only feature`
-
-evtl.
-
-1. `git rebase master feature`
-2. `git rebase feature master`
+6. `git rebase feature master`
+7. `git push`
+8. `git branch -d feature`
 
 ---
 
