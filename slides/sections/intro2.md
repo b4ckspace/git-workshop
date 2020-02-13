@@ -14,10 +14,10 @@ Notes:
 
 ## Agenda
 
-1. Motivation
-2. Voraussetzungen
-3. Änderungen auf Commits aufteilen
-4. Branches aktualisieren und neu sortieren
-5. Branches zurücksetzen
-6. Bugfix-Releases
-7. Bonus: GitHub Workflow
+1. Motivation <!-- .element class="fragment" -->
+2. Voraussetzungen <!-- .element class="fragment" -->
+3. Änderungen auf Commits aufteilen <!-- .element class="fragment" -->
+4. Branches aktualisieren und neu sortieren <!-- .element class="fragment" -->
+5. Branches zurücksetzen <!-- .element class="fragment" -->
+6. Bugfix-Releases <!-- .element class="fragment" -->
+7. Bonus: GitHub Workflow <!-- .element class="fragment" -->
