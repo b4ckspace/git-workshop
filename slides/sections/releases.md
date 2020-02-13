@@ -5,11 +5,11 @@
 ## Update Releases
 
 - Versionen
- - Major.Minor.Bugfix
+ - Major.Minor.Bugfix (siehe [semver.org](https://semver.org/)
 - Entwickler Branch
 - Release Branches
  - Major.Minor
-- git tag für eigentliche Releases
+- `git tag` für eigentliche Releases
 
 ---
 
