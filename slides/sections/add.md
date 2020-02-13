@@ -37,6 +37,10 @@ Notes:
 
 ---
 
+<asciinema-player src="asciinemas/git-add-p.cast" font-size="large"></asciinema-player>
+
+---
+
 ## git add -i
 
 ``` text
