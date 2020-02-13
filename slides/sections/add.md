@@ -4,12 +4,12 @@
 
 ## git add
 
-- git add -p
- - git add -i
+- `git add -p`
+ - `git add -i`
 - Teile (hunks) der Änderungen ins Staging
  - split - Änderung weiter aufteilen
  - edit - Änderung in Editor anpassen
-- Dannach: git commit
+- Dannach: `git commit`
 
 ---
 
@@ -31,6 +31,9 @@ s - split the current hunk into smaller hunks
 e - manually edit the current hunk
 ? - print help
 ```
+
+Notes:
+- wichtige Befehle: y, n, s, e
 
 ---
 
